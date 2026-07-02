@@ -1,0 +1,16 @@
+:root {
+  --ink: #12141c;
+  --paper: #eef1f5;
+  --card-bg: #ffffff;
+  --brand: #17384a;
+  --brand-light: #2c5f74;
+  --accent: #d99a2b;
+  --success: #1f9d63;
+  --sale: #290caa;
+  --muted: #667085;
+  --border: #dfe3ea;
+}
+
+* {
+  box-sizing: border-box;
+}
