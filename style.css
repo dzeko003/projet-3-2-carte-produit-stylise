@@ -260,3 +260,10 @@ body {
 .btn:active {
   transform: scale(0.96);
 }
+
+.footer {
+  text-align: center;
+  margin-top: 48px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
