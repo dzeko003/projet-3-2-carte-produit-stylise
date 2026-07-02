@@ -230,3 +230,33 @@ body {
     background-color 0.2s ease,
     transform 0.15s ease;
 }
+
+.btn--primary {
+  flex: 1;
+  background-color: var(--brand);
+  color: #ffffff;
+}
+
+.btn--primary:hover {
+  background-color: var(--brand-light);
+}
+
+.btn--icon {
+  width: 42px;
+  flex: 0 0 42px;
+  background-color: var(--paper);
+  border: 1px solid var(--border);
+  color: var(--sale);
+  font-size: 1rem;
+}
+
+.btn--icon:hover {
+  background-color: var(--sale);
+  border-color: var(--sale);
+  color: #ffffff;
+  transform: scale(1.06);
+}
+
+.btn:active {
+  transform: scale(0.96);
+}
