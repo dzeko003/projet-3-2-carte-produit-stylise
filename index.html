@@ -18,6 +18,202 @@
     />
   </head>
   <body>
-    <header class=""></header>
+    <header class="header">
+      <p class="header__place">
+        <i class="fa-solid fa-location-dot"></i>
+        Brazzaville &amp; environs
+      </p>
+      <h1>Marché Ya Tout dedans</h1>
+      <p class="header__desc">
+        Une sélection de produits du quotidien, livrée à votre porte.
+      </p>
+    </header>
+
+    <main class="grid">
+      <article class="card card--electro">
+        <span class="badge badge--stock">
+          <i class="fa-solid fa-circle-check"></i>
+          En stock
+        </span>
+
+        <div class="card__image">
+          <img
+            src="https://images.unsplash.com/photo-1480694313141-fce5e697ee25?w=600&h=400&fit=crop&auto=format&q=80"
+            alt="smartphone"
+            loading="lazy"
+          />
+        </div>
+        <div class="card__body">
+          <p class="card__category">
+            <i class="fa-solid fa-mobile-screen"></i> Électronique
+          </p>
+          <h2 class="card__title">Téléphone Solea X1</h2>
+          <p class="card__desc">
+            Smartphone double SIM, batterie longue durée, écran 6,5" — idéal
+            pour Mobile Money et réseaux sociaux.
+          </p>
+
+          <div class="rating" aria-label="Note : 4 sur 5 étoiles">
+            <i class="fa-solid fa-star star--full"></i>
+            <i class="fa-solid fa-star star--full"></i>
+            <i class="fa-solid fa-star star--full"></i>
+            <i class="fa-solid fa-star star--full"></i>
+            <i class="fa-regular fa-star"></i>
+            <span class="rating__count">(128)</span>
+          </div>
+
+          <p class="card__price">
+            85 000 <span class="card__currency">FCFA</span>
+          </p>
+
+          <div class="card__actions">
+            <button class="btn btn--primary">
+              <i class="fa-solid fa-cart-shopping"></i> Ajouter au panier
+            </button>
+            <button class="btn btn--icon" aria-label="Ajouter aux favoris">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card card--mode">
+        <span class="badge badge--promo"
+          ><i class="fa-solid fa-tag"></i> Promo -20%</span
+        >
+        <div class="card__image">
+          <img
+            src="https://images.unsplash.com/photo-1578509566163-068acd11b8e7?w=600&h=400&fit=crop&auto=format&q=80"
+            alt="Tissu africain wax multicolore, motifs traditionnels"
+            loading="lazy"
+          />
+        </div>
+        <div class="card__body">
+          <p class="card__category">
+            <i class="fa-solid fa-shirt"></i> Vêtements
+          </p>
+          <h2 class="card__title">Chemise Wax Nzela</h2>
+          <p class="card__desc">
+            Chemise homme en tissu wax, motifs traditionnels, coupe ajustée,
+            tailles S à XXL.
+          </p>
+
+          <div class="rating" aria-label="Note : 5 sur 5 étoiles">
+            <i class="fa-solid fa-star star--full"></i>
+            <i class="fa-solid fa-star star--full"></i>
+            <i class="fa-solid fa-star star--full"></i>
+            <i class="fa-solid fa-star star--full"></i>
+            <i class="fa-solid fa-star star--full"></i>
+            <span class="rating__count">(64)</span>
+          </div>
+
+          <p class="card__price">
+            <span class="card__price--old">18 000</span>
+            14 400 <span class="card__currency">FCFA</span>
+          </p>
+
+          <div class="card__actions">
+            <button class="btn btn--primary">
+              <i class="fa-solid fa-cart-shopping"></i> Ajouter au panier
+            </button>
+            <button class="btn btn--icon" aria-label="Ajouter aux favoris">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card card--livre">
+        <span class="badge badge--stock"
+          ><i class="fa-solid fa-circle-check"></i> En stock</span
+        >
+        <div class="card__image">
+          <img
+            src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&h=400&fit=crop&auto=format&q=80"
+            alt="Gros plan sur une pile de livres brochés"
+            loading="lazy"
+          />
+        </div>
+        <div class="card__body">
+          <p class="card__category"><i class="fa-solid fa-book"></i> Livre</p>
+          <h2 class="card__title">Les Eaux du Pool — Roman</h2>
+          <p class="card__desc">
+            Roman d'un jeune auteur brazzavillois sur la vie, l'exil et le
+            retour au pays. 280 pages, broché.
+          </p>
+
+          <div class="rating" aria-label="Note : 4,5 sur 5 étoiles">
+            <i class="fa-solid fa-star star--full"></i>
+            <i class="fa-solid fa-star star--full"></i>
+            <i class="fa-solid fa-star star--full"></i>
+            <i class="fa-solid fa-star star--full"></i>
+            <i class="fa-solid fa-star-half-stroke star--full"></i>
+            <span class="rating__count">(37)</span>
+          </div>
+
+          <p class="card__price">
+            6 500 <span class="card__currency">FCFA</span>
+          </p>
+
+          <div class="card__actions">
+            <button class="btn btn--primary">
+              <i class="fa-solid fa-cart-shopping"></i> Ajouter au panier
+            </button>
+            <button class="btn btn--icon" aria-label="Ajouter aux favoris">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+        </div>
+      </article>
+      <article class="card card--food">
+        <span class="badge badge--promo"
+          ><i class="fa-solid fa-tag"></i> Promo -10%</span
+        >
+        <div class="card__image">
+          <img
+            src="https://images.unsplash.com/photo-1559561723-c3f4195835db?w=600&h=400&fit=crop&auto=format&q=80"
+            alt="Bol de légumes verts mijotés, façon saka-saka"
+            loading="lazy"
+          />
+        </div>
+        <div class="card__body">
+          <p class="card__category">
+            <i class="fa-solid fa-bowl-food"></i> Nourriture congolaise
+          </p>
+          <h2 class="card__title">Saka-Saka maison (1 kg)</h2>
+          <p class="card__desc">
+            Feuilles de manioc pilées, préparées à l'huile de palme,
+            accompagnement idéal pour le poisson ou le poulet fumé.
+          </p>
+
+          <div class="rating" aria-label="Note : 5 sur 5 étoiles">
+            <i class="fa-solid fa-star star--full"></i>
+            <i class="fa-solid fa-star star--full"></i>
+            <i class="fa-solid fa-star star--full"></i>
+            <i class="fa-solid fa-star star--full"></i>
+            <i class="fa-solid fa-star star--full"></i>
+            <span class="rating__count">(212)</span>
+          </div>
+
+          <p class="card__price">
+            <span class="card__price--old">3 000</span>
+            2 700 <span class="card__currency">FCFA</span>
+          </p>
+
+          <div class="card__actions">
+            <button class="btn btn--primary">
+              <i class="fa-solid fa-cart-shopping"></i> Ajouter au panier
+            </button>
+            <button class="btn btn--icon" aria-label="Ajouter aux favoris">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="page-footer">
+      <p>&copy; <time datetime="2026">2026</time> Marché Liboke</p>
+    </footer>
   </body>
 </html>
