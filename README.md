@@ -124,6 +124,17 @@ https://github.com/dzeko003/projet-3-2-carte-produit-stylise
 
 ---
 
+## Aperçu
+
+Une version en ligne du projet est disponible via GitHub Pages :
+
+**Démo :**  
+https://dzeko003.github.io/projet-3-2-carte-produit-stylise/
+
+Vous pouvez consulter directement la landing page dans votre navigateur sans avoir à cloner le dépôt.
+
+---
+
 ## Auteur
 
 **Berenis MASSAMBA**
